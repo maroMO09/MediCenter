@@ -1,0 +1,178 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#f9fdff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0077B6;
+}
+
+.logo {
+    display: flex;
+    /* padding-left: 5vh; */
+}
+
+.logo h2 {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.3vh;
+    color: white;
+}
+
+
+.logo a {
+    padding-top: 2.2vh;
+    padding-right: 1vh;
+    padding-left: 2vh;
+    font-size: 5vh;
+    color: white;
+}
+
+.links {
+    display: flex;
+    padding: 4vh;
+}
+
+.links a {
+    text-decoration: none;
+    margin-left: 9vh;
+    margin-top: 1vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5vh;
+    /* font-weight: 400; */
+}
+
+.main{
+    display: flex;
+}
+.main-text h1,
+.main-text p {
+    margin: 0;
+}
+
+.main-text {
+    margin-left: 25vh;
+    margin-top: 18vh;
+    color: #023047;
+    font-family: "Roboto", sans-serif;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-text h1 {
+    font-size: 11vh;
+}
+
+.main-text p{
+margin-top: 3vh;
+font-size: 3vh;
+    font-family: "Roboto", sans-serif;
+    padding-left: 1vh;
+
+}
+
+.doctor-img img{
+    width: 80%;
+    height: 80%;
+    margin-left: 15vh;
+}
+
+
+.background{
+    background-color: #e3f7ff;
+
+}
+
+.section-text{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+font-size: 5vh;
+    color: #023047;
+
+}
+
+.sections-doctors{
+                display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding-left: 13vh; */
+    justify-content: center;
+}
+
+.cards{
+    background-color: #ffffff;
+    margin: 4vh;
+    width: 50vh;
+    height: 40vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(133, 188, 218 , 0.6);
+    transition: 1.2s ease;
+}
+
+.cards:hover{
+    transform: scale(1.1);
+}
+
+.card-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+    font-size: 9vh;
+    /* color:#0077B6; */
+    color: #064c6e;
+
+}
+
+.card-text h3{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+font-size: 3.9vh;
+font-weight: 700;
+    color: #023047;
+
+}
+
+.card-text p{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+font-size: 2.2vh;
+    color: #023047;
+
+}
+
+.card-button{
+    display: flex;
+    justify-content: center;
+    /* align-items: end; */
+    margin-top: 1vh;
+
+}
+
+.card-button a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #023047;
+font-size: 3.5vh;
+font-weight: 700;
+transition: 1.2s ease;
+padding: 2vh 2.5vh;;
+}
+
+.card-button a:hover{
+background-color: #064c6e;
+border-radius: 10px;
+color: #f9fdff;
+}
+

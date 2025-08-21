@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    padding: 0;
+/* box-sizing: border-box; */
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns:  30% 70%;
+    height: 100vh;
+}
+
+.left{
+    background-color: #064c6e;
+}
+
+.left i{
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+    color: #e3f7ff;
+    font-size: 15vh;
+}
+
+.left h2{
+    display: flex;
+    justify-content: center;
+    color: #e3f7ff;
+    font-size: 5vh;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.left p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2vh;
+    color: #e3f7ff;
+    font-size: 2.5vh;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+.right{
+    background-color: #e3f7ff;
+}
+
+.right h1{
+    display: flex;
+    justify-content: center;
+    color: #064c6e;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(4 , 1fr);
+    background-color: #e3f7ff;
+/* margin: 5vh; */
+    height: 100vh;
+        row-gap: 5vh;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+
+}
+
+.card1{
+    background-color: #064c6e;
+/* padding: 10vh 15vh; */
+margin-left: 10vh;
+margin-right: 10vh;
+padding-top: 5vh;
+padding-bottom: 18vh;
+border-radius: 10px;
+/* display: flex; */
+position: relative;
+}
+
+.doctor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1{
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+    height: 30%;
+    margin-left: 3vh;
+    border-radius: 50%;
+}
+
+
+.card1 span{
+    margin-right: 4vh;
+    margin-top: 1.5vh;
+    color: #e3f7ff;
+    font-family: "Roboto", sans-serif;
+font-size: 4vh;
+}
+
+.rate{
+    margin-left: 2.5vh;
+    margin-top: 1.5vh;
+    /* margin-bottom: 5vh; */
+}
+
+.card1 a{
+    position: absolute;
+    text-decoration: none;
+   margin-top: 5vh;
+   left: 10vh;
+   background-color: #e3f7ff;
+   padding: 2vh 7vh;
+   border-radius: 10px;
+   color: #064c6e;
+     font-family: "Ubuntu", sans-serif;
+transition: 0.9s ease;
+   
+}
+
+.card1 a:hover{
+    transform: scale(1.1);
+}
+
+.card2{
+    background-color: #064c6e;
+/* padding: 10vh 15vh; */
+margin-left: 10vh;
+margin-right: 10vh;
+padding-top: 5vh;
+padding-bottom: 18vh;
+border-radius: 10px;
+/* display: flex; */
+position: relative;
+
+}
+
+.card2 span{
+    margin-right: 4vh;
+    margin-top: 1.5vh;
+    color: #e3f7ff;
+    font-family: "Roboto", sans-serif;
+font-size: 4vh;
+}
+
+.card2 a{
+    position: absolute;
+    text-decoration: none;
+   margin-top: 5vh;
+   left: 10vh;
+   background-color: #e3f7ff;
+   padding: 2vh 7vh;
+   border-radius: 10px;
+   color: #064c6e;
+     font-family: "Ubuntu", sans-serif;
+transition: 0.9s ease;
+   
+}
+
+.card2 a:hover{
+    transform: scale(1.1);
+}
+
+.card3{
+    background-color: #064c6e;
+/* padding: 10vh 15vh; */
+margin-left: 10vh;
+margin-right: 10vh;
+padding-top: 5vh;
+padding-bottom: 18vh;
+border-radius: 10px;
+/* display: flex; */
+position: relative;
+
+}
+
+.card3 span{
+    margin-right: 4vh;
+    margin-top: 1.5vh;
+    color: #e3f7ff;
+    font-family: "Roboto", sans-serif;
+font-size: 4vh;
+}
+
+.card3 a{
+    position: absolute;
+    text-decoration: none;
+   margin-top: 5vh;
+   left: 10vh;
+   background-color: #e3f7ff;
+   padding: 2vh 7vh;
+   border-radius: 10px;
+   color: #064c6e;
+     font-family: "Ubuntu", sans-serif;
+transition: 0.9s ease;
+   
+}
+
+.card3 a:hover{
+    transform: scale(1.1);
+}
+
+.card4{
+    background-color: #064c6e;
+/* padding: 10vh 15vh; */
+margin-left: 10vh;
+margin-right: 10vh;
+padding-top: 5vh;
+padding-bottom: 18vh;
+border-radius: 10px;
+/* display: flex; */
+position: relative;
+
+}
+
+.card4 span{
+    margin-right: 4vh;
+    margin-top: 1.5vh;
+    color: #e3f7ff;
+    font-family: "Roboto", sans-serif;
+font-size: 4vh;
+}
+
+.card4 a{
+    position: absolute;
+    text-decoration: none;
+   margin-top: 5vh;
+   left: 10vh;
+   background-color: #e3f7ff;
+   padding: 2vh 7vh;
+   border-radius: 10px;
+   color: #064c6e;
+     font-family: "Ubuntu", sans-serif;
+transition: 0.9s ease;
+   
+}
+
+.card4 a:hover{
+    transform: scale(1.1);
+}

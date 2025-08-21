@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#f9fdff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0077B6;
+}
+
+.logo {
+    display: flex;
+    /* padding-left: 5vh; */
+    
+}
+
+.logo h2 {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.3vh;
+    color: white;
+    padding: 1.2vh;
+
+}
+
+
+.logo a {
+    padding-top: 3.5vh;
+    padding-right: 1vh;
+    padding-left: 2.5vh;
+    font-size: 5vh;
+    color: white;
+    
+    
+}
+
+.login h1{
+    display: flex;
+    /* padding: 15vh; */
+    /* padding-top: vh; */
+    padding-left: 20vh;
+    font-size: 10vh;
+    font-family: "Roboto", sans-serif;
+color: #082854;
+}
+
+.form form{
+        /* padding-top: 10vh; */
+    padding-left: 20vh;
+}
+
+.form input{
+    font-size: 4vh;
+    margin-bottom: 5vh;
+    padding: 4vh;
+    border-radius: 10px;
+    border:#175DB5 solid 1px;
+}
+
+.forgot a{
+    text-decoration: none;
+    font-size: 3vh;
+    font-family: "Roboto", sans-serif;
+color: #0077B6;
+/* display:inline-flex; */
+}
+
+#submit{
+margin-top: 5vh;
+width: 30vh;
+background-color: #0077B6;
+color: white;
+border-radius: 10px;
+cursor: pointer;
+}
+
+
+.part1{
+    display: flex;
+}
+
+.name{
+margin-right: 15vh;
+}
+
+.part2{
+    display: flex;
+}
+
+#password{
+margin-right: 15vh;
+
+}
+
+

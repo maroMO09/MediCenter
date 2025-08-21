@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental</title>
+    <link rel="stylesheet" href="docs.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="./pages.js" defer></script>
+</head>
+
+<body>
+    <div class="doctor">
+        <img src="./pics/den-doc-2.jpeg" alt="doc-img">
+        <div class="discrapion">
+            <span>Dr. Mohamed Amr</span>
+            <p>Dental Specialist</p>
+            <div class="rate">
+                <i class="fa-solid fa-star" style="color: gold;"></i>
+                <i class="fa-solid fa-star" style="color: gold;"></i>
+                <i class="fa-solid fa-star" style="color: gold;"></i>
+                <i class="fa-solid fa-star" style="color: gold;"></i>
+                <i class="fa-solid fa-star" style="color: gold;"></i>
+                <!-- <i class="fa-solid fa-star-half-stroke" style="color: gold;"></i> -->
+                <!-- <i class="fa-solid fa-star" style="color: silver;"></i> -->
+            </div>
+        </div>
+    </div>
+    <div class="sections">
+        <div class="main">
+            <span>Available Appointments</span>
+            <form id="form">
+                <div class="book1" id="booked1">
+                    <p id="p1">2025/8/15 <br> 8 p.m</p>
+                    <input type="radio" name="date">
+                </div>
+                <div class="book1" id="booked1">
+                    <p id="p1">2025/8/17 <br> 12 p.m</p>
+                    <input type="radio" name="date">
+                </div>
+                <div class="book1" id="booked1">
+                    <p id="p1">2025/9/1 <br> 11 a.m</p>
+                    <input type="radio" name="date">
+                </div>
+                <div class="book1" id="booked1">
+                    <p id="p1">2025/9/15 <br> 12 a.m</p>
+                    <input type="radio" name="date">
+                </div>
+                <button id="btn" form="form">Book</button>
+
+            </form>
+        </div>
+
+        <div class="reviews-upload">
+            <div class="reviews">
+                <!-- <span>Reviews</span> -->
+                <form id="form1" class="rev1">
+                    <label for="rev">Reviews</label>
+                    <input type="text" id="rev" placeholder="Write a review">
+                </form>
+                <button form="form1">Submit Review</button>
+            </div>
+            <div class="upload">
+                <form id="form2">
+                    <label for="files"><i class="fa-solid fa-upload"></i>Upload files</label>
+                    <input type="file" id="files">
+                </form>
+                <button form="form2">Upload</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
